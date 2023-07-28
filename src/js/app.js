@@ -11,6 +11,6 @@ const i3 = document.querySelector('#i3')
         }else{
             btnText.innerHTML = "Message Sending!!!";
             btn.classList.add("active");
-            console.log('dsfd   ')
+            console.log('dsfd')
         }
     };
