@@ -1,24 +1,24 @@
 @font-face {
-  font-family: 'Space Grotesk';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/spacegrotesk/v15/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7oUXsrPMBTTA.woff2) format('woff2');
-  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
-}
-@font-face {
-  font-family: 'Space Grotesk';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/spacegrotesk/v15/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7oUXsqPMBTTA.woff2) format('woff2');
-  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-@font-face {
-  font-family: 'Space Grotesk';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/spacegrotesk/v15/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7oUXskPMA.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/spacegrotesk/v15/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7oUXsrPMBTTA.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+  }
+  @font-face {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/spacegrotesk/v15/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7oUXsqPMBTTA.woff2) format('woff2');
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/spacegrotesk/v15/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7oUXskPMA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
 *{
     font-family:'Space Grotesk' ;
 }
@@ -26,12 +26,526 @@
     .container{
        padding: 0 100px;
        text-decoration: none;
-    //    Our Working Start
+    // Case Studies start
+    #caseStudies{
+        .case__tepasi{
+            display: flex;
+            gap: 40px;
+            align-items: center;
+            .h2{
+               color: #000;
+                font-family: Space Grotesk;
+                font-size: 40px;
+                font-style: normal;
+                padding: 0px 7px;
+                border-radius: 7px;
+                background: var(--green, #B9FF66);
+                font-weight: 500;
+                line-height: normal; 
+            }
+            .p{
+               color: #000;
+                font-family: Space Grotesk;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+               width: 580px;
+                flex-shrink: 0; 
+                line-height: normal; 
+            }
+        }
+        .case__pasti{
+            .case__studies{
+                display: flex;
+                padding: 70px 60px;
+                align-items: flex-start;
+                gap: 64px;
+                border-radius: 45px;
+                background: var(--dark, #191a23);
+                .div1{
+                    color: #B9FF66;
+
+                    .p1{
+                        color: #FFF;
+                        font-family: Space Grotesk;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal; 
+                        width: 286px;
+                    }
+                    .link__Div{
+                        a,
+a:hover,
+a:active,
+a:visited {
+  color: unset;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+$primary: #B9FF66;
+$secondary: #B9FF66;
+
+.link {
+  display: block;
+  position: relative;
+  margin-inline: 25px;
+  font-size: 24px;
+  color: #B9FF66;
+}
+
+.link__ {
+  &0 {
+    &:before {
+      content: "";
+      width: 0;
+      height: 2px;
+      background-color: $secondary;
+
+      position: absolute;
+      top: 100%;
+      left: 0;
+
+      transition: width 0.3s ease-in-out;
+    }
+
+    &:hover {
+      &:before {
+        width: 100%;
+        z-index: -1;
+      }
+    }
+  }
+
+  &1 {
+    &:before {
+      content: "";
+      width: 100%;
+      height: 1px;
+      background-color: transparentize($secondary, 0.3);
+
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+
+      transition: height 0.3s ease-in-out;
+    }
+
+    &:hover {
+      &:before {
+        height: 10px;
+      }
+    }
+  }
+
+  &2 {
+    &:before,
+    &:after {
+      content: "";
+      height: 1px;
+      background-color: #B9FF66;
+
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: -1;
+      opacity: 0;
+    }
+
+    &:before {
+      width: 90%;
+      bottom: -50%;
+      transition: bottom 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    }
+
+    &:after {
+      width: 70%;
+      bottom: -80%;
+      transition: bottom 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    }
+
+    &:hover {
+      &:before {
+        opacity: 1;
+        bottom: 0;
+      }
+
+      &:after {
+        opacity: 1;
+        bottom: -10%;
+      }
+    }
+  }
+
+  &3 {
+    &:before {
+      content: "";
+      width: 0;
+      height: 2px;
+      background-color: $secondary;
+
+      position: absolute;
+      top: 100%;
+      left: 0;
+
+      transition: width 0.3s ease-in-out;
+    }
+    &:after {
+      content: "\2192";
+      position: relative;
+      display: inline-block;
+      margin-left: 5px;
+      transform: rotate(-45deg);
+
+      transition: margin 0.3s ease-in-out, transform 0.3s ease-in-out,
+        color 0.3s ease-in-out;
+    }
+    &:hover {
+      &:before {
+        width: 100%;
+        z-index: -1;
+      }
+      &:after {
+        color: $secondary;
+        margin-left: 15px;
+        transform: rotate(0deg);
+      }
+    }
+  }
+}
+                    }
+                }
+                .div2{ 
+                    width: 1px;
+                    height: 250px;
+                    background: #2f2f2f;
+                }       
+                .div3{
+                    color: #B9FF66;
+                    .p1{
+                        color: #FFF;
+                    font-family: Space Grotesk;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    width: 286px;  
+                    } 
+                    .link__Div{
+                        a,
+a:hover,
+a:active,
+a:visited {
+  color: unset;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+$primary: #B9FF66;
+$secondary: #B9FF66;
+
+.link {
+  display: block;
+  position: relative;
+  margin-inline: 25px;
+  font-size: 24px;
+  color: #B9FF66;
+}
+
+.link__ {
+  &0 {
+    &:before {
+      content: "";
+      width: 0;
+      height: 2px;
+      background-color: $secondary;
+
+      position: absolute;
+      top: 100%;
+      left: 0;
+
+      transition: width 0.3s ease-in-out;
+    }
+
+    &:hover {
+      &:before {
+        width: 100%;
+        z-index: -1;
+      }
+    }
+  }
+
+  &1 {
+    &:before {
+      content: "";
+      width: 100%;
+      height: 1px;
+      background-color: transparentize($secondary, 0.3);
+
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+
+      transition: height 0.3s ease-in-out;
+    }
+
+    &:hover {
+      &:before {
+        height: 10px;
+      }
+    }
+  }
+
+  &2 {
+    &:before,
+    &:after {
+      content: "";
+      height: 1px;
+      background-color: #B9FF66;
+
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: -1;
+      opacity: 0;
+    }
+
+    &:before {
+      width: 90%;
+      bottom: -50%;
+      transition: bottom 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    }
+
+    &:after {
+      width: 70%;
+      bottom: -80%;
+      transition: bottom 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    }
+
+    &:hover {
+      &:before {
+        opacity: 1;
+        bottom: 0;
+      }
+
+      &:after {
+        opacity: 1;
+        bottom: -10%;
+      }
+    }
+  }
+
+  &3 {
+    &:before {
+      content: "";
+      width: 0;
+      height: 2px;
+      background-color: $secondary;
+
+      position: absolute;
+      top: 100%;
+      left: 0;
+
+      transition: width 0.3s ease-in-out;
+    }
+    &:after {
+      content: "\2192";
+      position: relative;
+      display: inline-block;
+      margin-left: 5px;
+      transform: rotate(-45deg);
+
+      transition: margin 0.3s ease-in-out, transform 0.3s ease-in-out,
+        color 0.3s ease-in-out;
+    }
+    &:hover {
+      &:before {
+        width: 100%;
+        z-index: -1;
+      }
+      &:after {
+        color: $secondary;
+        margin-left: 15px;
+        transform: rotate(0deg);
+      }
+    }
+  }
+}
+                    }  
+                }         
+                .div4{
+                    width: 1px;
+                    height: 250px;
+                    background: #2f2f2f;
+                }
+                .div5{
+                    color: #B9FF66;
+                    .p1{
+                        color: #FFF;
+                        font-family: Space Grotesk;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        width: 286px; 
+                    }
+                    .link__Div{
+                        a,
+a:hover,
+a:active,
+a:visited {
+  color: unset;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+$primary: #B9FF66;
+$secondary: #B9FF66;
+
+.link {
+  display: block;
+  position: relative;
+  margin-inline: 25px;
+  font-size: 24px;
+  color: #B9FF66;
+}
+
+.link__ {
+  &0 {
+    &:before {
+      content: "";
+      width: 0;
+      height: 2px;
+      background-color: $secondary;
+
+      position: absolute;
+      top: 100%;
+      left: 0;
+
+      transition: width 0.3s ease-in-out;
+    }
+
+    &:hover {
+      &:before {
+        width: 100%;
+        z-index: -1;
+      }
+    }
+  }
+
+  &1 {
+    &:before {
+      content: "";
+      width: 100%;
+      height: 1px;
+      background-color: transparentize($secondary, 0.3);
+
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+
+      transition: height 0.3s ease-in-out;
+    }
+
+    &:hover {
+      &:before {
+        height: 10px;
+      }
+    }
+  }
+
+  &2 {
+    &:before,
+    &:after {
+      content: "";
+      height: 1px;
+      background-color: #B9FF66;
+
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: -1;
+      opacity: 0;
+    }
+
+    &:before {
+      width: 90%;
+      bottom: -50%;
+      transition: bottom 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    }
+
+    &:after {
+      width: 70%;
+      bottom: -80%;
+      transition: bottom 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    }
+
+    &:hover {
+      &:before {
+        opacity: 1;
+        bottom: 0;
+      }
+
+      &:after {
+        opacity: 1;
+        bottom: -10%;
+      }
+    }
+  }
+
+  &3 {
+    &:before {
+      content: "";
+      width: 0;
+      height: 2px;
+      background-color: $secondary;
+
+      position: absolute;
+      top: 100%;
+      left: 0;
+
+      transition: width 0.3s ease-in-out;
+    }
+    &:after {
+      content: "\2192";
+      position: relative;
+      display: inline-block;
+      margin-left: 5px;
+      transform: rotate(-45deg);
+
+      transition: margin 0.3s ease-in-out, transform 0.3s ease-in-out,
+        color 0.3s ease-in-out;
+    }
+    &:hover {
+      &:before {
+        width: 100%;
+        z-index: -1;
+      }
+      &:after {
+        color: $secondary;
+        margin-left: 15px;
+        transform: rotate(0deg);
+      }
+    }
+  }
+}
+                    }  
+                }
+            }
+        }
+    }
+    // Case Studies end
+    // Our Working Start
     #ourWorking{
         transition: 210.5s;
         .tepaso{    
             display: flex;
             gap: 40px;
+            align-items: center;
             .p1{
                 border-radius: 7px;
                 color: #000;
@@ -39,7 +553,8 @@
                 height: 51px;
                 font-family: Space Grotesk;
                 font-size: 40px;
-background: var(--green, #B9FF66);
+                background: var(--grey, #B9FF66);
+                padding: 0px 7px;
                 font-style: normal;
                 font-weight: 500;
                 line-height: normal;          
@@ -61,34 +576,31 @@ background: var(--green, #B9FF66);
             font-size: 40px;
             font-style: normal;
             font-weight: 500;
-
             line-height: normal;;
         }
         
         label {
             display: block;    
             padding: 8px 22px;
-            
             width: 1000px;
             display: flex;
             align-items: center;
             gap: 25px;
             margin: 0 0 1px 0;
             cursor: pointer;
-            background: #6AAB95;
             border-radius: 3px;
             color: #FFF;    
             position: relative; 
-            // border-radius: 45px;
             border: 1px solid #191A23;
             background: var(--green, #B9FF66);
             box-shadow: 0px 5px 0px 0px #191A23;
             color: #000;
-font-family: Space Grotesk;
-font-size: 30px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+            font-family: Space Grotesk;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            margin-bottom: 15px;
         }
         
         label:hover {
@@ -102,24 +614,21 @@ line-height: normal;
             position: absolute;
             align-items: center;
             right: 10px;
-            
             top: 2px;
         }
         
         input:checked + label::after {
             content: '-';
-            
             right: 14px;
             top: 3px;
         }
         
-        .content {
+        .content{
             background: #E2E5F6;
             padding: 10px 25px;
             border: 1px solid #A7A7A7;
             margin: 0 0 1px 0;
             border-radius: 3px;
-            // border-radius: 45px;
             border: 1px solid #191A23;
             background: var(--green, #B9FF66);
             box-shadow: 0px 5px 0px 0px #191A23;
@@ -144,8 +653,8 @@ line-height: normal;
         }
     }
     // Our Working end
-    //    Contact Us start
-       #contactUs{
+    // Contact Us start
+    #contactUs{
         .contactUs__top{
             display: flex;
             gap: 40px;
@@ -256,17 +765,19 @@ line-height: normal;
                     background: #FFF; 
                 }
                 .input1{
-                    display: flex;
+                    // display: flex;
                     width: 556px;
                     height: 190px;
                     padding: 18px 30px;
                     align-items: flex-start;
                     gap: 10px;
-                    flex-shrink: 0;
                     border-radius: 14px;
                     border: 1px solid #000;
                     background: #FFF;
                     margin-bottom: 40px; 
+                }
+                .input:hover,.input1:hover{
+                    background: linear-gradient(45%,#000,#ffffff);
                 }
                 button{
                     width: 556px;
@@ -336,12 +847,12 @@ line-height: normal;
                 align-items: center;
                 margin-top: 65px;
                 flex-shrink: 0;
-                background-image: url('./images/photo_2023-07-26_18-27-52-removebg-preview\ \(1\).png');
+                background-image: url('../images/photo_2023-07-26_18-27-52-removebg-preview\ \(1\).png');
                 background-size: 100%;
             }
         }
 
-       }
-       // Contact Us end
+    }
+    // Contact Us end
     }
 }

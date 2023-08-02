@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Space Grotesk";
   font-style: normal;
@@ -27,12 +28,387 @@
   padding: 0 100px;
   text-decoration: none;
 }
+.app .container #caseStudies .case__tepasi {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.app .container #caseStudies .case__tepasi .h2 {
+  color: #000;
+  font-family: Space Grotesk;
+  font-size: 40px;
+  font-style: normal;
+  padding: 0px 7px;
+  border-radius: 7px;
+  background: var(--green, #B9FF66);
+  font-weight: 500;
+  line-height: normal;
+}
+.app .container #caseStudies .case__tepasi .p {
+  color: #000;
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  width: 580px;
+  flex-shrink: 0;
+  line-height: normal;
+}
+.app .container #caseStudies .case__pasti .case__studies {
+  display: flex;
+  padding: 70px 60px;
+  align-items: flex-start;
+  gap: 64px;
+  border-radius: 45px;
+  background: var(--dark, #191a23);
+}
+.app .container #caseStudies .case__pasti .case__studies .div1 {
+  color: #B9FF66;
+}
+.app .container #caseStudies .case__pasti .case__studies .div1 .p1 {
+  color: #FFF;
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 286px;
+}
+.app .container #caseStudies .case__pasti .case__studies .div1 .link__Div a,
+.app .container #caseStudies .case__pasti .case__studies .div1 .link__Div a:hover,
+.app .container #caseStudies .case__pasti .case__studies .div1 .link__Div a:active,
+.app .container #caseStudies .case__pasti .case__studies .div1 .link__Div a:visited {
+  color: unset;
+  text-decoration: none;
+  cursor: pointer;
+}
+.app .container #caseStudies .case__pasti .case__studies .div1 .link__Div .link {
+  display: block;
+  position: relative;
+  margin-inline: 25px;
+  font-size: 24px;
+  color: #B9FF66;
+}
+.app .container #caseStudies .case__pasti .case__studies .div1 .link__Div .link__0:before {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #B9FF66;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition: width 0.3s ease-in-out;
+}
+.app .container #caseStudies .case__pasti .case__studies .div1 .link__Div .link__0:hover:before {
+  width: 100%;
+  z-index: -1;
+}
+.app .container #caseStudies .case__pasti .case__studies .div1 .link__Div .link__1:before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: rgba(185, 255, 102, 0.7);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  transition: height 0.3s ease-in-out;
+}
+.app .container #caseStudies .case__pasti .case__studies .div1 .link__Div .link__1:hover:before {
+  height: 10px;
+}
+.app .container #caseStudies .case__pasti .case__studies .div1 .link__Div .link__2:before, .app .container #caseStudies .case__pasti .case__studies .div1 .link__Div .link__2:after {
+  content: "";
+  height: 1px;
+  background-color: #B9FF66;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  opacity: 0;
+}
+.app .container #caseStudies .case__pasti .case__studies .div1 .link__Div .link__2:before {
+  width: 90%;
+  bottom: -50%;
+  transition: bottom 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+.app .container #caseStudies .case__pasti .case__studies .div1 .link__Div .link__2:after {
+  width: 70%;
+  bottom: -80%;
+  transition: bottom 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+.app .container #caseStudies .case__pasti .case__studies .div1 .link__Div .link__2:hover:before {
+  opacity: 1;
+  bottom: 0;
+}
+.app .container #caseStudies .case__pasti .case__studies .div1 .link__Div .link__2:hover:after {
+  opacity: 1;
+  bottom: -10%;
+}
+.app .container #caseStudies .case__pasti .case__studies .div1 .link__Div .link__3:before {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #B9FF66;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition: width 0.3s ease-in-out;
+}
+.app .container #caseStudies .case__pasti .case__studies .div1 .link__Div .link__3:after {
+  content: "→";
+  position: relative;
+  display: inline-block;
+  margin-left: 5px;
+  transform: rotate(-45deg);
+  transition: margin 0.3s ease-in-out, transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.app .container #caseStudies .case__pasti .case__studies .div1 .link__Div .link__3:hover:before {
+  width: 100%;
+  z-index: -1;
+}
+.app .container #caseStudies .case__pasti .case__studies .div1 .link__Div .link__3:hover:after {
+  color: #B9FF66;
+  margin-left: 15px;
+  transform: rotate(0deg);
+}
+.app .container #caseStudies .case__pasti .case__studies .div2 {
+  width: 1px;
+  height: 250px;
+  background: #2f2f2f;
+}
+.app .container #caseStudies .case__pasti .case__studies .div3 {
+  color: #B9FF66;
+}
+.app .container #caseStudies .case__pasti .case__studies .div3 .p1 {
+  color: #FFF;
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 286px;
+}
+.app .container #caseStudies .case__pasti .case__studies .div3 .link__Div a,
+.app .container #caseStudies .case__pasti .case__studies .div3 .link__Div a:hover,
+.app .container #caseStudies .case__pasti .case__studies .div3 .link__Div a:active,
+.app .container #caseStudies .case__pasti .case__studies .div3 .link__Div a:visited {
+  color: unset;
+  text-decoration: none;
+  cursor: pointer;
+}
+.app .container #caseStudies .case__pasti .case__studies .div3 .link__Div .link {
+  display: block;
+  position: relative;
+  margin-inline: 25px;
+  font-size: 24px;
+  color: #B9FF66;
+}
+.app .container #caseStudies .case__pasti .case__studies .div3 .link__Div .link__0:before {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #B9FF66;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition: width 0.3s ease-in-out;
+}
+.app .container #caseStudies .case__pasti .case__studies .div3 .link__Div .link__0:hover:before {
+  width: 100%;
+  z-index: -1;
+}
+.app .container #caseStudies .case__pasti .case__studies .div3 .link__Div .link__1:before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: rgba(185, 255, 102, 0.7);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  transition: height 0.3s ease-in-out;
+}
+.app .container #caseStudies .case__pasti .case__studies .div3 .link__Div .link__1:hover:before {
+  height: 10px;
+}
+.app .container #caseStudies .case__pasti .case__studies .div3 .link__Div .link__2:before, .app .container #caseStudies .case__pasti .case__studies .div3 .link__Div .link__2:after {
+  content: "";
+  height: 1px;
+  background-color: #B9FF66;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  opacity: 0;
+}
+.app .container #caseStudies .case__pasti .case__studies .div3 .link__Div .link__2:before {
+  width: 90%;
+  bottom: -50%;
+  transition: bottom 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+.app .container #caseStudies .case__pasti .case__studies .div3 .link__Div .link__2:after {
+  width: 70%;
+  bottom: -80%;
+  transition: bottom 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+.app .container #caseStudies .case__pasti .case__studies .div3 .link__Div .link__2:hover:before {
+  opacity: 1;
+  bottom: 0;
+}
+.app .container #caseStudies .case__pasti .case__studies .div3 .link__Div .link__2:hover:after {
+  opacity: 1;
+  bottom: -10%;
+}
+.app .container #caseStudies .case__pasti .case__studies .div3 .link__Div .link__3:before {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #B9FF66;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition: width 0.3s ease-in-out;
+}
+.app .container #caseStudies .case__pasti .case__studies .div3 .link__Div .link__3:after {
+  content: "→";
+  position: relative;
+  display: inline-block;
+  margin-left: 5px;
+  transform: rotate(-45deg);
+  transition: margin 0.3s ease-in-out, transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.app .container #caseStudies .case__pasti .case__studies .div3 .link__Div .link__3:hover:before {
+  width: 100%;
+  z-index: -1;
+}
+.app .container #caseStudies .case__pasti .case__studies .div3 .link__Div .link__3:hover:after {
+  color: #B9FF66;
+  margin-left: 15px;
+  transform: rotate(0deg);
+}
+.app .container #caseStudies .case__pasti .case__studies .div4 {
+  width: 1px;
+  height: 250px;
+  background: #2f2f2f;
+}
+.app .container #caseStudies .case__pasti .case__studies .div5 {
+  color: #B9FF66;
+}
+.app .container #caseStudies .case__pasti .case__studies .div5 .p1 {
+  color: #FFF;
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 286px;
+}
+.app .container #caseStudies .case__pasti .case__studies .div5 .link__Div a,
+.app .container #caseStudies .case__pasti .case__studies .div5 .link__Div a:hover,
+.app .container #caseStudies .case__pasti .case__studies .div5 .link__Div a:active,
+.app .container #caseStudies .case__pasti .case__studies .div5 .link__Div a:visited {
+  color: unset;
+  text-decoration: none;
+  cursor: pointer;
+}
+.app .container #caseStudies .case__pasti .case__studies .div5 .link__Div .link {
+  display: block;
+  position: relative;
+  margin-inline: 25px;
+  font-size: 24px;
+  color: #B9FF66;
+}
+.app .container #caseStudies .case__pasti .case__studies .div5 .link__Div .link__0:before {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #B9FF66;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition: width 0.3s ease-in-out;
+}
+.app .container #caseStudies .case__pasti .case__studies .div5 .link__Div .link__0:hover:before {
+  width: 100%;
+  z-index: -1;
+}
+.app .container #caseStudies .case__pasti .case__studies .div5 .link__Div .link__1:before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: rgba(185, 255, 102, 0.7);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  transition: height 0.3s ease-in-out;
+}
+.app .container #caseStudies .case__pasti .case__studies .div5 .link__Div .link__1:hover:before {
+  height: 10px;
+}
+.app .container #caseStudies .case__pasti .case__studies .div5 .link__Div .link__2:before, .app .container #caseStudies .case__pasti .case__studies .div5 .link__Div .link__2:after {
+  content: "";
+  height: 1px;
+  background-color: #B9FF66;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  opacity: 0;
+}
+.app .container #caseStudies .case__pasti .case__studies .div5 .link__Div .link__2:before {
+  width: 90%;
+  bottom: -50%;
+  transition: bottom 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+.app .container #caseStudies .case__pasti .case__studies .div5 .link__Div .link__2:after {
+  width: 70%;
+  bottom: -80%;
+  transition: bottom 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+.app .container #caseStudies .case__pasti .case__studies .div5 .link__Div .link__2:hover:before {
+  opacity: 1;
+  bottom: 0;
+}
+.app .container #caseStudies .case__pasti .case__studies .div5 .link__Div .link__2:hover:after {
+  opacity: 1;
+  bottom: -10%;
+}
+.app .container #caseStudies .case__pasti .case__studies .div5 .link__Div .link__3:before {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #B9FF66;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition: width 0.3s ease-in-out;
+}
+.app .container #caseStudies .case__pasti .case__studies .div5 .link__Div .link__3:after {
+  content: "→";
+  position: relative;
+  display: inline-block;
+  margin-left: 5px;
+  transform: rotate(-45deg);
+  transition: margin 0.3s ease-in-out, transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.app .container #caseStudies .case__pasti .case__studies .div5 .link__Div .link__3:hover:before {
+  width: 100%;
+  z-index: -1;
+}
+.app .container #caseStudies .case__pasti .case__studies .div5 .link__Div .link__3:hover:after {
+  color: #B9FF66;
+  margin-left: 15px;
+  transform: rotate(0deg);
+}
 .app .container #ourWorking {
   transition: 210.5s;
 }
 .app .container #ourWorking .tepaso {
   display: flex;
   gap: 40px;
+  align-items: center;
 }
 .app .container #ourWorking .tepaso .p1 {
   border-radius: 7px;
@@ -41,7 +417,8 @@
   height: 51px;
   font-family: Space Grotesk;
   font-size: 40px;
-  background: var(--green, #B9FF66);
+  background: var(--grey, #B9FF66);
+  padding: 0px 7px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -73,7 +450,6 @@
   gap: 25px;
   margin: 0 0 1px 0;
   cursor: pointer;
-  background: #6AAB95;
   border-radius: 3px;
   color: #FFF;
   position: relative;
@@ -86,6 +462,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  margin-bottom: 15px;
 }
 .app .container #ourWorking label:hover {
   background: #4E8774;
@@ -238,17 +615,18 @@
   background: #FFF;
 }
 .app .container #contactUs .contactUs__bottom .chapTomoni .input1 {
-  display: flex;
   width: 556px;
   height: 190px;
   padding: 18px 30px;
   align-items: flex-start;
   gap: 10px;
-  flex-shrink: 0;
   border-radius: 14px;
   border: 1px solid #000;
   background: #FFF;
   margin-bottom: 40px;
+}
+.app .container #contactUs .contactUs__bottom .chapTomoni .input:hover, .app .container #contactUs .contactUs__bottom .chapTomoni .input1:hover {
+  background: linear-gradient(45%, #000, #ffffff);
 }
 .app .container #contactUs .contactUs__bottom .chapTomoni button {
   width: 556px;
@@ -310,6 +688,6 @@
   align-items: center;
   margin-top: 65px;
   flex-shrink: 0;
-  background-image: url("./images/photo_2023-07-26_18-27-52-removebg-preview (1).png");
+  background-image: url("../images/photo_2023-07-26_18-27-52-removebg-preview (1).png");
   background-size: 100%;
 }/*# sourceMappingURL=style.css.map */
